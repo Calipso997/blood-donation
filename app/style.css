@@ -1,0 +1,34 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4595CE;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+.allForm {
+
+    background-color: #1D83CB;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 25% 10% 25%;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+
+}
+
+.btn {
+    background-color: gray;
+}
