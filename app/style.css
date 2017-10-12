@@ -13,6 +13,7 @@ body {
 
 .container {
     padding: 0;
+    margin: 0;
 }
 
 .allForm {
@@ -20,7 +21,7 @@ body {
     background-color: #1D83CB;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10% 25% 10% 25%;
     width: 100%;
@@ -31,4 +32,6 @@ body {
 
 .btn {
     background-color: gray;
+    padding: 20px;
+
 }
