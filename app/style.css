@@ -1,4 +1,5 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import '~bootstrap/dist/css/bootstrap.css';
 
 body {
     margin: 0;
@@ -15,7 +16,7 @@ body {
     padding: 0;
     margin: 0;
 }
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .allForm {
 
     background-color: #1D83CB;
@@ -30,8 +31,24 @@ body {
 
 }
 
-.btn {
-    background-color: gray;
-    padding: 20px;
+.imputMargin {
+    padding: 0;
+}
 
+.confirmForm p {
+    padding: 10px 0px 10px 0px;
+    margin: 0;
+}
+.btn {
+    color: #261e19;
+    background-color: lightgray;
+    padding: 0.7rem;
+    border: 2px solid gray;
+}
+
+.confirmButton {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
