@@ -9,25 +9,22 @@ $.fn.datetimepicker = datetimepicker;
 const port = 3000;
 const apiUri = `http://localhost:${port}`;
 
-// pobieranie danych po kliknieciu confirm
+
 window.onload = () => {
     $('#datetimepicker').datetimepicker({
-        defaultDate: "11/1/2013",
-        disabledDates: [
-            moment("12/25/2013"),
-            new Date(2013, 11 - 1, 21),
-            "11/22/2013 00:53"
-        ]
-    });
-    $(".confirmButton").click(function () {
-        // pobranie danych z radio
-        let Woman = document.getElementById("Woman").checked = true;
-        let Man = document.getElementById("Man").checked = true;
+        locale: 'pl'
+
     });
 }
 
+// get data from radio after click confirm
+$(".confirmButton").click(function () {
+    // pobranie danych z radio
+    let Woman = document.getElementById("Woman").checked = true;
+    let Man = document.getElementById("Man").checked = true;
+});
 
-// pobranie danych z imputa
+// get data from input after click confirm
 
 
 /*
