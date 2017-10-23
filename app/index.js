@@ -24,6 +24,7 @@ $(".confirmButton").click(function () {
     let Man = document.getElementById("Man").checked = true;
 });
 
+
 // get data from input after click confirm
 
 

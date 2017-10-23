@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 .row {
@@ -14,29 +15,29 @@ body {
 .firstRow {
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
-.container {
-    padding: 0;
-    margin: 0;
-}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 .allForm {
     background-color: #A2090D;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    padding: 1% 25% 5% 25%;
-    width: 100%;
-    height: 100%;
+    padding: 5% 25% 5% 25%;
+    width: 75vw;
+    height: 75vh ;
     text-align: center;
-    margin: 0;
+    position: relative;
 }
 
 h1,h2{
     margin: 0;
+}
+
+.bloodyImg {
+    position: relative;
 }
 
 .form-group {
