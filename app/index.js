@@ -24,20 +24,11 @@ $(".confirmButton").click(function () {
     let Man = document.getElementById("Man").checked = true;
 });
 
+$('#datetimepicker').data("DateTimePicker").FUNCTION()
+$('#datetimepicker').data("DateTimePicker").date();
 
-// get data from input after click confirm
+//$("#datetimepicker").data("datetimepicker").getDate();
 
 
-/*
-$(document).ready(function(){
-    var date_input=$('input[name="date"]'); //our date input has the name "date"
-    var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
-    var options={
-        format: 'mm/dd/yyyy',
-        container: container,
-        todayHighlight: true,
-        autoclose: true,
-    };
-    date_input.datepicker(options);
-})
-*/
+
+
