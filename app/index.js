@@ -3,30 +3,34 @@ import $ from 'jquery';
 import moment from 'moment';
 import * as datetimepicker from '../node_modules/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min';
 
-console.log(datetimepicker);
-$.fn.datetimepicker = datetimepicker;
 
 const port = 3000;
 const apiUri = `http://localhost:${port}`;
 
 
 window.onload = () => {
-    $('#datetimepicker').datetimepicker({
-        locale: 'pl'
+    initializeForm();
 
-    });
-}
+};
 
 // get data from radio after click confirm
 $(".confirmButton").click(function () {
     // pobranie danych z radio
-    let Woman = document.getElementById("Woman").checked = true;
-    let Man = document.getElementById("Man").checked = true;
+    const woman = document.getElementById("woman").checked;
+    const man = document.getElementById("man").checked;
+    console.log($("#dateTimePicker").find("input").val());
+    console.log('man',man);
+    console.log('woman',woman);
+
 });
 
-$('#datetimepicker').data("DateTimePicker").FUNCTION()
-$('#datetimepicker').data("DateTimePicker").date();
-
+const initializeForm = function(){
+    const dateTimePicker =  $('#dateTimePicker').datetimepicker({
+        locale: 'pl',
+        format: 'DD/MM/YYYY'
+    });
+    return dateTimePicker;
+};
 //$("#datetimepicker").data("datetimepicker").getDate();
 
 
