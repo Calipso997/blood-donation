@@ -27,7 +27,8 @@ $(".confirmButton").click(function () {
 const initializeForm = function(){
     const dateTimePicker =  $('#dateTimePicker').datetimepicker({
         locale: 'pl',
-        format: 'DD/MM/YYYY'
+        format: 'DD/MM/YYYY',
+        maxDate: new Date
     });
     return dateTimePicker;
 };
