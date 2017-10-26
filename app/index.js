@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 import $ from 'jquery';
 import moment from 'moment';
 import * as datetimepicker from '../node_modules/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min';
