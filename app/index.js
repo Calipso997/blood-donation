@@ -15,7 +15,6 @@ window.onload = () => {
 
 // get data from radio after click confirm
 $(".confirmButton").click(function () {
-    // pobranie danych z radio
     const woman = document.getElementById("woman").checked;
     const man = document.getElementById("man").checked;
     console.log($("#dateTimePicker").find("input").val());
@@ -32,6 +31,7 @@ const initializeForm = function(){
     });
     return dateTimePicker;
 };
+
 //$("#datetimepicker").data("datetimepicker").getDate();
 
 
